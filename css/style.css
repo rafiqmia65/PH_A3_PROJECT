@@ -1,0 +1,33 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body{
+    font-family: "Sora", serif;
+}
+p{
+    font-size: 20px;
+    color: #111111;
+}
+.hero_P{
+    max-width: 800px;
+    margin: 30px auto;
+}
+#header{
+    background: linear-gradient(180deg, #FFF 0%, #EFEBE3 100%);
+}
+.popular_first_div{
+    border-radius: 10px;
+    padding: 20px 40px 100px 40px;
+    background: url(../assets/vegetable-offer.png), linear-gradient(135deg, #179800 0%, #EFEBE3 100%);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.arrival{
+    background: url(../assets/arrival2.5.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
