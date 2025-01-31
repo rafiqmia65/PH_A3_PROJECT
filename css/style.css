@@ -31,3 +31,9 @@ p{
     background-repeat: no-repeat;
     background-position: bottom left;
 }
+.order_online{
+    background: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}

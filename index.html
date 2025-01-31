@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's Platter</title>
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="./assets/logo-header.png" type="image/x-icon">
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/a5c36bad19.js" crossorigin="anonymous"></script>
     <!-- DaisyUi CDN -->
@@ -29,6 +31,7 @@
       </script>
 </head>
 <body>
+    
     <!-- Header Section Starts Here -->
     <header id="header">
         <div class="container mx-auto px-4">
@@ -306,31 +309,45 @@
         <!-- Arrival & Offers Section Ends Here -->
 
 
-        <!-- Form Section Starts Here -->
-        <div class="container mx-auto px-4">
-            <div class="bg-bgPrimaryColor rounded-3xl flex flex-col md:flex-row justify-center gap-14 py-12 px-20 items-center">
-                <div>
-                    <img src="./assets/vegetable-busket.png" alt="vegetable-busket">
-                </div>
-                <div>
-                    <h2 class="text-primaryColor text-2xl lg:text-4xl font-semibold">Get Grocery News!</h2>
-                    <p class="text-base lg:text-xl mt-5">Exclusive training tips, ticks, product deals and more.</p>
-                    <form action="" class="mt-8">
-                        <label for="email">
-                            <input type="email" name="email" id="" placeholder="Enter email...."
-                            required
-                            class="py-2 px-4 bg-white rounded-lg h-16 w-3/4 text-base text-[#C4C4C4] placeholder:text-[#C4C4C4] outline-none">
-                        </label>
-                        <br>
-                        <input type="submit" value="Subscribe" class="mt-9 py-3 px-8 bg-secondaryColor text-xl rounded-xl text-white">
-                    </form>
-                </div>
+        <!-- Order Section Starts Here -->
+
+        <section class="py-12 lg:py-32">
+            <div class="container order_online mx-auto relative">
+                <h2 class="absolute top-40 left-4 lg:top-1/2 lg:left-1/4 text-center text-6xl font-extrabold ">
+                    Order Online <br> Save Your Time
+                </h2>
             </div>
-        </div>
+        </section>
+
+        <!-- Order Section Ends Here -->
     </main>
 
     <!-- Footer Section Starts Here -->
-     <footer id="footer" class="py-12 lg:py-32 bg-secondaryColor">
+     <footer id="footer" class="py-12 lg:py-32 bg-secondaryColor relative">
+                    <!-- Form Section Starts Here -->
+        <div class=" absolute -top-2/1">
+            <div class="container mx-auto px-4">
+                <div class="bg-bgPrimaryColor rounded-3xl flex flex-col md:flex-row justify-center gap-14 py-12 px-20 items-center">
+                    <div>
+                        <img src="./assets/vegetable-busket.png" alt="vegetable-busket">
+                    </div>
+                    <div>
+                        <h2 class="text-primaryColor text-2xl lg:text-4xl font-semibold">Get Grocery News!</h2>
+                        <p class="text-base lg:text-xl mt-5">Exclusive training tips, ticks, product deals and more.</p>
+                        <form action="" class="mt-8">
+                            <label for="email">
+                                <input type="email" name="email" id="" placeholder="Enter email...."
+                                required
+                                class="py-2 px-4 bg-white rounded-lg h-16 w-3/4 text-base text-[#C4C4C4] placeholder:text-[#C4C4C4] outline-none">
+                            </label>
+                            <br>
+                            <input type="submit" value="Subscribe" class="mt-9 py-3 px-8 bg-secondaryColor text-xl rounded-xl text-white">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <!-- Form Section Ends Here -->
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 items-center justify-center" >
                 <div>
@@ -371,5 +388,12 @@
         </div>
      </footer>
     <!-- Footer Section Ends Here -->
+
+
+
+
+
+
+    
 </body>
 </html>
